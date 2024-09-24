@@ -1,0 +1,4 @@
+for i in {1..100}
+do
+  wget -o resp "api.pizzafan.gr:9001/api/v1/restaurants/location/?lon=25.550415&lat=42.088382";
+done
